@@ -84,7 +84,7 @@ nav a:hover {
 
 footer {
 	text-align: center;
-	background: url("bg.jpg");
+	background-color: black;
 	padding: 40px 0;
 }
 
@@ -92,10 +92,6 @@ footer {
 	color: #FFFFFF;
 	font-size: 13px;
 	margin: 20px 0 0;
-}
-
-main {
-	
 }
 
 form {
@@ -231,6 +227,12 @@ td, th {
 
 .imagem-beneficios {
 	width: 60%;
+	opacity: 0.7;
+	transition: 400ms;
+	box-shadow: 10px 10px 5px	 #000000;
+}
+.imagem-beneficios:hover{
+	opacity: 1;
 }
 
 .video {
